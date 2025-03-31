@@ -20,7 +20,6 @@ export const fetchEmployees = async () => {
   }
 };
 
-// Add an employee
 export const addEmployee = async (employeeData) => {
   try {
     const response = await axios.post(API_URL, employeeData);
