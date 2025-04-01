@@ -30,7 +30,7 @@ export const addEmployee = async (employeeData) => {
   }
 };
 
-// Delete an employee
+
 export const deleteEmployee = async (id) => {
   try {
     await axios.delete(`${API_URL}/${id}`);
